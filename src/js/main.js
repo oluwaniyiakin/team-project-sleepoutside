@@ -38,3 +38,5 @@ const listElement = document.querySelector('#product-list');
 // Create a new ProductListing instance and initialize it
 const productList = new ProductListing('Tents', './data/tents.json', listElement);
 productList.init();
+import { loadHeaderFooter } from './utils.mjs';
+loadHeaderFooter();
